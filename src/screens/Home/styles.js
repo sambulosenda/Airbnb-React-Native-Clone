@@ -1,4 +1,5 @@
 import {StyleSheet, Dimensions} from 'react-native';
+
 const styles = StyleSheet.create({
   title: {
     fontSize: 100,
@@ -7,6 +8,7 @@ const styles = StyleSheet.create({
     width: '70%',
     marginLeft: 30,
   },
+  
   image: {
     height: '100%',
     width: '100%',
