@@ -17,18 +17,24 @@ import {
   Pressable,
   Text,
   StatusBar,
+  Picker,
 } from 'react-native';
 
+import feed from './src/assets/data/feed'
 import HomeScreen from './src/screens/Home';
 import Post from './src/components/Post';
 
+const post1 = feed[0];
+const post2 = feed[1];
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <Post />
+        <Post post={post1}/>
+        <Post post={post2}/>
+     
       </SafeAreaView>
     </>
   );
