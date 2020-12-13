@@ -21,10 +21,8 @@ const DestinationSearch = () => {
         data={searchResults}
         renderItem={({item}) => (
           <View style={styles.row}>
-            <View  style={styles.iconContainer}>
-            <Entypo name='location-pin' size={24} />
-
-
+            <View style={styles.iconContainer}>
+              <Entypo name="location-pin" size={24} />
             </View>
             <Text>{item.description}</Text>
           </View>
