@@ -5,20 +5,17 @@
  * @format
  * @flow strict-local
  */
-
+import 'react-native-gesture-handler';
 import React from 'react';
-import Icon from 'react-native-vector-icons/FontAwesome5';
+
 import {
   SafeAreaView,
   StyleSheet,
-  ScrollView,
-  ImageBackground,
-  View,
-  Pressable,
-  Text,
+ 
   StatusBar,
   Picker,
 } from 'react-native';
+import Router from './src/navigation/Router';
 
 import feed from './src/assets/data/feed';
 import HomeScreen from './src/screens/Home';
@@ -34,9 +31,7 @@ const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <GuestScreen />
-      </SafeAreaView>
+      <Router />
     </>
   );
 };

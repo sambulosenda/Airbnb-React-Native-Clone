@@ -15,10 +15,12 @@ const GuestScreen = () => {
         </View>
 
         <View
+        
           style={{
             flexDirection: 'row',
             justifyContent: 'center',
             alignItems: 'center',
+            
           }}>
           <Pressable
             style={styles.button}
@@ -84,7 +86,11 @@ const GuestScreen = () => {
             <Text>+</Text>
           </Pressable>
         </View>
+
+     
       </View>
+
+
     </View>
   );
 };

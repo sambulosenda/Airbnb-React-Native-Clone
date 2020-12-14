@@ -36,18 +36,23 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'white',
     width: Dimensions.get('screen').width - 20,
-    height: 60,
+    height: 50,
     borderRadius: 30, 
     marginHorizontal: 10,
     flexDirection: 'row',
     alignItems: 'center', 
     position: 'absolute',
-    top: 20,
+    top: 50,
     zIndex: 1000,
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+    
+
 
   }, 
 
   searchbuttonText: {
+    paddingLeft: 10,
 
   }
 });

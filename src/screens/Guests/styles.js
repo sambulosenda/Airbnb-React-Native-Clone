@@ -19,7 +19,22 @@ const styles = StyleSheet.create({
           marginHorizontal: 20,
           borderBottomWidth: 1,
           borderBottomColor: 'lightgrey',
+    }, 
+    submitbutton:{
+
+        marginBottom: 10,
+        borderWidth: 1,
+        backgroundColor: 'red', 
+        margin: 20, 
+        height: 50,
+        alignItems: 'center', 
+        justifyContent: 'center',
+        borderRadius: 10,
+        borderColor: 'grey',
+
+
     }
+
  
 });
 
