@@ -1,20 +1,22 @@
 export default [
   {
     id: '0',
-    image:
-      'https://a0.muscache.com/im/pictures/b7ae2dcc-0ead-47e6-a8db-80ef51db6b31.jpg?im_w=1200',
+    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg',
     type: 'Private Room',
     title: 'Bright room in the heart of the city',
-    bed: 1,
-    bedroom: 1,
+    bed: 2,
+    bedroom: 3,
     oldPrice: 25,
     newPrice: 20,
     totalPrice: 120,
+    coordinate: {
+      latitude: 28.3915637,
+      longitude: -16.6291304,
+    },
   },
   {
     id: '1',
-    image:
-      'https://a0.muscache.com/im/pictures/19eb82a5-5a77-49de-ae67-f18e88199159.jpg?im_w=720',
+    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg',
     type: 'Entire Flat',
     title: 'NEW lux. apartment in the center of Santa Cruz',
     bed: 3,
@@ -22,11 +24,14 @@ export default [
     oldPrice: 76,
     newPrice: 65,
     totalPrice: 390,
+    coordinate: {
+      latitude: 28.4815637,
+      longitude: -16.2291304,
+    },
   },
   {
     id: '2',
-    image:
-      'https://a0.muscache.com/im/pictures/5dd8f173-5c13-4d0e-87ba-733935efb7d6.jpg?im_w=1200',
+    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg',
     type: 'Private Property',
     title: 'Green House Santa Cruz',
     bed: 2,
@@ -34,11 +39,14 @@ export default [
     oldPrice: 64,
     newPrice: 55,
     totalPrice: 330,
+    coordinate: {
+      latitude: 28.2515637,
+      longitude: -16.3991304,
+    },
   },
   {
     id: '3',
-    image:
-      'https://a0.muscache.com/im/pictures/19eb82a5-5a77-49de-ae67-f18e88199159.jpg?im_w=720',
+    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg',
     type: 'Entire Flat',
     title: 'Typical canarian house',
     bed: 4,
@@ -46,5 +54,9 @@ export default [
     oldPrice: 120,
     newPrice: 100,
     totalPrice: 600,
+    coordinate: {
+      latitude: 28.4815637,
+      longitude: -16.2991304,
+    },
   },
 ];
