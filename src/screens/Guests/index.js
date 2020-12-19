@@ -7,8 +7,9 @@ const GuestScreen = () => {
   const [adults, setadults] = useState(6);
   const [children, setchildren] = useState(0);
   const [infants, setinfants] = useState(0);
+ 
+  const navigation = useNavigation();
 
-  const navigation = useNavigation()
   return (
     <View style={{justifyContent: 'space-between', height: '100%'}}>
       <View>
