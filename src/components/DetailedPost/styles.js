@@ -2,29 +2,13 @@ import {StyleSheet, Dimensions} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    height: 150,
-    padding: 10,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 4,
-    },
-    shadowOpacity: 0.3,
-    shadowRadius: 4.65,
-    elevation: 8,
-
-  },
-  innerContainer: {
-    flexDirection: 'row',
-    backgroundColor: 'white',
-    margin: 5,
-    borderRadius: 10,
-    overflow: 'hidden',
+    margin: 20,
   },
   image: {
-    height: '100%',
-    aspectRatio: 1 / 1,
+    width: '100%',
+    aspectRatio: 3 / 2,
     resizeMode: 'cover',
+    borderRadius: 10,
   },
 
   bedrooms: {
@@ -34,10 +18,11 @@ const styles = StyleSheet.create({
 
   description: {
     fontSize: 18,
+    lineHeight: 26,
   },
 
   prices: {
-    fontSize: 15,
+    fontSize: 18,
     marginVertical: 10,
   },
   oldprice: {
@@ -51,6 +36,11 @@ const styles = StyleSheet.create({
     color: '#5b5b5b',
     textDecorationLine: 'underline',
   },
+  longdescription: {
+    marginVertical: 20, 
+    fontSize: 16, 
+    lineHeight: 24, 
+  }
 });
 
 export default styles;

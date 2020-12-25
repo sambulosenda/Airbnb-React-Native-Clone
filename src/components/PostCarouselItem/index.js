@@ -5,8 +5,10 @@ import styles from './styles';
 const PostCarouselItem = (props) => {
   const post = props.post;
   const width = useWindowDimensions().width;
+
+  
   return (
-    <View style={styles.container, {width: width - 30}}>
+    <View style={[styles.container, { width: width - 60}]}>
       <View style={styles.innerContainer}>
       <Image
         style={styles.image}
